@@ -1,0 +1,12 @@
+unit Click_GPS_config;
+
+uses Click_GPS_types;
+
+const
+    _GSP_TIMER_LIMIT : uint32_t = 5; // 5 ticks
+    _GSP_BUF_WARNING : uint16_t = 192; // 192 bytes activate warning
+    _GSP_POLL_ENABLE : uint8_t = 1; // poll enabled
+    _GSP_CALLBACK_ENABLE : uint8_t = 0; // calback disabled
+    _GSP_UART_CFG : array[1] of uint32_t = (9600); 
+    
+end.
